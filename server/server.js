@@ -10,10 +10,11 @@ var app = express();
 app.use(bodyParser.json());
 
 app.post('/todos', (req, res) => {
-  
+
     //create the data with the request
     var todo = new Todo({
-        text: req.body.text
+        text: req.body.text,
+        completed: req.body.completed
     });
 
     //execute to the database
@@ -30,3 +31,5 @@ GET /todos */
 app.listen(3000, () => {
     console.log('Started on port 3000');
 });
+
+module.exports = { app };
