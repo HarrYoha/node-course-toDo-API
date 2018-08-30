@@ -1,0 +1,72 @@
+2018-08-27T15:26:40.021760+00:00 app[api]: Release v1 created by user harrochy@yahoo.fr
+2018-08-27T15:26:40.021760+00:00 app[api]: Initial release by user harrochy@yahoo.fr
+2018-08-27T15:26:40.127267+00:00 app[api]: Release v2 created by user harrochy@yahoo.fr
+2018-08-27T15:26:40.127267+00:00 app[api]: Enable Logplex by user harrochy@yahoo.fr
+2018-08-27T15:32:16.000000+00:00 app[api]: Build started by user harrochy@yahoo.fr
+2018-08-27T15:32:39.413321+00:00 app[api]: Deploy cb6b8d7f by user harrochy@yahoo.fr
+2018-08-27T15:32:39.413321+00:00 app[api]: Release v3 created by user harrochy@yahoo.fr
+2018-08-27T15:32:39.429052+00:00 app[api]: Scaled to web@1:Free by user harrochy@yahoo.fr
+2018-08-27T15:32:40.000000+00:00 app[api]: Build succeeded
+2018-08-27T15:32:46.379566+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-27T15:32:48.036109+00:00 app[web.1]: 
+2018-08-27T15:32:48.036128+00:00 app[web.1]: > to-api@1.0.0 start /app
+2018-08-27T15:32:48.036130+00:00 app[web.1]: > node server/server.js
+2018-08-27T15:32:48.036131+00:00 app[web.1]: 
+2018-08-27T15:32:48.859914+00:00 app[web.1]: (node:20) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+2018-08-27T15:32:48.862070+00:00 app[web.1]: Started on port 3000
+2018-08-27T15:33:46.906885+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-27T15:33:46.906999+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-27T15:33:46.985817+00:00 heroku[web.1]: Process exited with status 137
+2018-08-27T15:33:46.998936+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-27T15:33:47.000489+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-27T15:33:49.464252+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-27T15:33:51.834420+00:00 app[web.1]: 
+2018-08-27T15:33:51.834438+00:00 app[web.1]: > to-api@1.0.0 start /app
+2018-08-27T15:33:51.834442+00:00 app[web.1]: 
+2018-08-27T15:33:51.834440+00:00 app[web.1]: > node server/server.js
+2018-08-27T15:33:53.036711+00:00 app[web.1]: (node:20) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+2018-08-27T15:33:53.038323+00:00 app[web.1]: Started on port 3000
+2018-08-27T15:34:49.727287+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-27T15:34:49.727377+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-27T15:34:49.903394+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-27T15:34:49.803868+00:00 heroku[web.1]: Process exited with status 137
+2018-08-27T15:34:51.967569+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-spire-24057.herokuapp.com request_id=27e467ce-81fc-4eba-9f6d-ab4f16c8e651 fwd="86.242.133.206" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-27T15:35:07.228216+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-spire-24057.herokuapp.com request_id=170b3750-acac-4fef-8526-a54d6bc7ca7e fwd="86.242.133.206" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-27T15:35:07.817444+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=desolate-spire-24057.herokuapp.com request_id=eaa90b9f-e03c-41eb-9451-55a2a1076738 fwd="86.242.133.206" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-27T15:39:45.000000+00:00 app[api]: Build started by user harrochy@yahoo.fr
+2018-08-27T15:40:07.639487+00:00 app[api]: Deploy b261c96d by user harrochy@yahoo.fr
+2018-08-27T15:40:07.639487+00:00 app[api]: Release v4 created by user harrochy@yahoo.fr
+2018-08-27T15:40:08.422056+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-27T15:40:08.000000+00:00 app[api]: Build succeeded
+2018-08-27T15:40:11.510845+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-27T15:40:13.932858+00:00 app[web.1]: 
+2018-08-27T15:40:13.932879+00:00 app[web.1]: > to-api@1.0.0 start /app
+2018-08-27T15:40:13.932881+00:00 app[web.1]: > node server/server.js
+2018-08-27T15:40:13.932882+00:00 app[web.1]: 
+2018-08-27T15:40:15.558468+00:00 app[web.1]: (node:20) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+2018-08-27T15:40:15.561155+00:00 app[web.1]: Started on port 3000
+2018-08-27T15:41:12.079934+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-27T15:41:12.080054+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-27T15:41:12.385852+00:00 heroku[web.1]: Process exited with status 137
+2018-08-27T15:41:12.986594+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-27T15:41:15.007003+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-spire-24057.herokuapp.com request_id=d3c402d9-04f9-496b-ae8c-906303957b98 fwd="86.242.133.206" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-27T15:41:15.711844+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=desolate-spire-24057.herokuapp.com request_id=9e4460cc-c2ef-4535-a60c-2c903a6f8df3 fwd="86.242.133.206" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-27T15:42:39.000000+00:00 app[api]: Build started by user harrochy@yahoo.fr
+2018-08-27T15:43:01.348296+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-27T15:43:01.033392+00:00 app[api]: Release v5 created by user harrochy@yahoo.fr
+2018-08-27T15:43:01.033392+00:00 app[api]: Deploy b746bcd3 by user harrochy@yahoo.fr
+2018-08-27T15:43:02.000000+00:00 app[api]: Build succeeded
+2018-08-27T15:43:05.193305+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-27T15:43:24.580194+00:00 app[web.1]: 
+2018-08-27T15:43:24.580229+00:00 app[web.1]: > to-api@1.0.0 start /app
+2018-08-27T15:43:24.580231+00:00 app[web.1]: > node server/server.js
+2018-08-27T15:43:24.580233+00:00 app[web.1]: 
+2018-08-27T15:43:26.407456+00:00 app[web.1]: (node:20) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+2018-08-27T15:43:26.411083+00:00 app[web.1]: Started on port undefined
+2018-08-27T15:44:05.252242+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-27T15:44:05.252242+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-27T15:44:05.395815+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-27T15:44:05.378181+00:00 heroku[web.1]: Process exited with status 137
+2018-08-27T15:44:07.066369+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-spire-24057.herokuapp.com request_id=cec0385b-03ca-4ca2-a13d-96fea1bf5dc7 fwd="86.242.133.206" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-27T15:44:07.540908+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=desolate-spire-24057.herokuapp.com request_id=026386bd-63ba-42aa-a9df-1573c47192d7 fwd="86.242.133.206" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-27T15:44:09.210503+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=desolate-spire-24057.herokuapp.com request_id=21ec2ff4-a2ef-4bce-b44c-5884156203f3 fwd="86.242.133.206" dyno= connect= service= status=503 bytes= protocol=https
