@@ -61,7 +61,6 @@ describe('POST /todos', () => {
 
 describe('GET /todos/:id', () => {
     it('should return toodo doc', (done) => {
-        this.setTimeout(done,15000);
         request(app)
             .get(`/todos/${todos[0]._id.toHexString()}`)
             .expect(200)
@@ -71,7 +70,26 @@ describe('GET /todos/:id', () => {
             .end(done);
     });
 });
-
+/* 
+describe('DELETE /todos/:id', () => {
+    it('should delete the todo doc', (done) => {
+        request(app)
+            .delete(`/todos/${todos[1]._id.toHexString()}`)
+            .expect(200)
+            .expect((res)=> {
+                expect((res.body.todo._id)).toBe(todos[0]._id.toHexString());
+            }).end((err,res) => {
+                if(err){
+                    return done(err);
+                }
+                Todo.findById(todos[1]._id.toHexString()).then((todo)=>{
+                    expect(todo).toNotExist();
+                    done();
+                }).catch((e)=> done(e));
+            });
+    });
+});
+ */
 /* 
 describe('GET /todos', () => {
     it('should get all todos', (done) => {
